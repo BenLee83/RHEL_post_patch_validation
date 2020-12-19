@@ -10,7 +10,7 @@ name: CI
 
 defaults:
   run:
-    working-directory: 'RHEL_post_patch_validation'
+    working-directory: 'geerlingguy.apache'
 
 jobs:
 
