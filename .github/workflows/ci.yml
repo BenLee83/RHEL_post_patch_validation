@@ -10,7 +10,7 @@ name: CI
 
 defaults:
   run:
-    working-directory: 'geerlingguy.apache'
+    working-directory: 'RHEL_post_patch_validation'
 
 jobs:
 
@@ -62,6 +62,6 @@ jobs:
       - name: Run Molecule tests.
         run: molecule test
         env:
-          PY_COLORS: '1'
-          ANSIBLE_FORCE_COLOR: '1'
+          #PY_COLORS: '1'
+          #ANSIBLE_FORCE_COLOR: '1'
           MOLECULE_DISTRO: ${{ matrix.distro }}
