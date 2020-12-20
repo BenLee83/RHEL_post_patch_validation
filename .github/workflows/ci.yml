@@ -9,14 +9,13 @@ name: CI
     - cron: "0 5 * * 0"
 
 jobs:
-
   lint:
     name: Lint
     runs-on: ubuntu-latest
     steps:
       - name: Check out the codebase.
         uses: actions/checkout@v2
-        
+
       - name: Set up Python 3.
         uses: actions/setup-python@v2
         with:
@@ -42,7 +41,7 @@ jobs:
     steps:
       - name: Check out the codebase.
         uses: actions/checkout@v2
-        
+
       - name: Set up Python 3.
         uses: actions/setup-python@v
         with:
