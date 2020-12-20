@@ -1,7 +1,7 @@
 ---
-#ependencies: []
+#dependencies: []
 
-#alaxy_info:
+#Galaxy_info:
 # role_name: XYZ
 # author: BenLee83
 # description: Apache 2.x for Linux.
@@ -36,4 +36,4 @@
 #   - html
 #   - httpd
 
-#llow_duplicates: true
+#allow_duplicates: true
